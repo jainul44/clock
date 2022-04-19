@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="brands.css">
+    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="solid.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="container2">
+            <section class="left-sec">
+                <div class="i1">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="i2">
+                    <button onclick="presentTime()"><i class="fa-regular fa-clock icons"></i></button>
+                    <button><i class="fa-regular fa-bell icons"></i></button>
+                    <button><i class="fa-solid fa-stopwatch icons"></i></button>
+                    <button><i class="fa-regular fa-hourglass icons"></i></button>
+                </div>
+                <div class="i3">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </section>
+            <section class="right-sec">
+                <div class="heading">Alarms & Clock</div>
+                <div id="clock"></div>
+                <div id="alarm"></div>
+                <div id="stopWatch"></div>
+                <div id="timer"></div>
+            </section>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>
